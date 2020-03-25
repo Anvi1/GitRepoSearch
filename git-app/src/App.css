@@ -1,0 +1,117 @@
+.App {
+  text-align: left;
+  padding-top: 12px;
+  font-size: 18px;
+}
+
+.App-logo {
+  height: 80px;
+}
+
+.container{
+  max-width: 100% !important;
+}
+
+hr.resultHr{
+  margin-top: 0rem !important;
+  margin-bottom: 0rem !important;
+}
+
+.container{
+  margin-left: initial !important;
+  margin-right: initial !important; 
+}
+
+.App-header {
+  background-color: #222;
+  height: 150px;
+  padding: 20px;
+  color: white;
+}
+
+.searchBar .form-group{
+  text-align: left;
+}
+
+.searchBar label{
+  font-size: xx-large;
+  font-weight: bold;
+}
+
+.resultLabel{
+  font-size: xx-large;
+  font-weight: bold;
+}
+
+.App-logo {
+  height: 8.5vmin;
+}
+
+.App-logo-details{
+  height: 8vmin;
+}
+
+.repoDetContainer{
+  padding-top: 15px;
+}
+
+.repoRowLbl{
+  word-break: break-all;
+}
+
+.repoNameLbl{
+  font-size: xx-large;
+    font-weight: bold;
+    word-break: break-all;
+}
+
+.repoRow{
+  padding-top: 12px;
+  padding-bottom: 12px;
+}
+
+.repoRowDescLbl{
+  color: rgb(40, 41, 41);
+  word-break: break-all;
+  font-size: 15px;
+}
+
+.repoDescLbl{
+  font-style: italic;
+  color: rgb(40, 41, 41);
+  word-break: break-all;
+}
+
+.repoList .list-group-item{
+  padding: 1.2rem 1rem 1rem 0.25rem !important;
+  cursor: pointer !important;
+}
+
+.repoCommitLbl{
+  font-size: 15px;
+  font-style: italic;
+}
+
+.repoCommitMsg{
+  word-break: break-all;
+}
+
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
