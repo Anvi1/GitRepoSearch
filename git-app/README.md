@@ -1,4 +1,4 @@
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app). This is the responsive application. Works for small, medium, large and xl screens. React-bootstrap is used to develop this application in responsive manner.
 
 ## Installations
 
